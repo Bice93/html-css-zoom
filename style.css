@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    height: 100vh;
+    color: white;
+}
+/* inizio header */
+header{
+    height: 50px;
+    background-color: azure;
+    border: 1px solid black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.speaker{
+    text-align: end;
+}
+/* inizio main */
+main{
+    background-color: rgb(45, 44, 44);
+    border: 1px solid red;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.box-main{
+    width: 1300px;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+
+img{
+    width: 100%;
+}
+
+.card{
+    width: calc(100% / 7 - 5px);
+    border: 1px solid pink;
+}
+
+/* inizio footer */
+footer{
+    background-color: cadetblue;
+    border: 1px solid black;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+.row-footer{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
